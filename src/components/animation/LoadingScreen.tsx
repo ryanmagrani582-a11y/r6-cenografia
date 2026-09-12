@@ -106,14 +106,20 @@ export function LoadingScreen() {
       role="status"
       aria-label="Carregando R6 Cenografia"
       className="fixed inset-0 z-[90] flex flex-col items-center justify-center gap-6 bg-void"
-    >
+        >
       <p
         data-loading-mark
-        className="flex flex-col items-center gap-2 text-center"
+        className="flex flex-col items-center gap-3 text-center"
       >
-        <span className="text-4xl font-semibold tracking-[-0.04em]">
-          R6<span className="text-acid" aria-hidden>.</span>
-        </span>
+        <img
+          src="/images/brand/r6-logo.png"
+          alt=""
+          width={481}
+          height={518}
+          loading="eager"
+          className="h-14 w-auto object-contain"
+          aria-hidden="true"
+        />
         <span className="r6-label text-muted">Cenografia</span>
       </p>
       <p data-loading-meta className="r6-label text-muted">

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
+const DEFAULT_LOGO = "/images/brand/r6-logo.png";
+
 type BrandMarkProps = {
   className?: string;
   compact?: boolean;
@@ -9,25 +11,26 @@ type BrandMarkProps = {
 };
 
 /**
- * Wordmark tipográfico provisório.
- * Troca futura pelo logo oficial: passar `logoSrc` (SVG/PNG claro/escuro).
+ * Logotipo R6 — usa o PNG oficial por padrão.
+ * Passar `logoSrc=""` (string vazia) volta para o wordmark tipográfico.
  */
 export function BrandMark({
   className,
   compact = false,
-  logoSrc,
+  logoSrc = DEFAULT_LOGO,
   logoAlt = "R6 Cenografia",
 }: BrandMarkProps) {
   if (logoSrc) {
     return (
       <span className={cn("inline-flex items-center", className)}>
-        <Image
-          src={logoSrc}
-          alt={logoAlt}
-          width={120}
-          height={32}
-          priority={false}
-        />
+        <span className="relative block h-10 w-[42px] shrink-0">
+          <Image
+            src={logoSrc}
+            alt={logoAlt}
+            fill
+            className="object-contain"
+          />
+        </span>
       </span>
     );
   }
