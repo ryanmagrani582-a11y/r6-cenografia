@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# R6 Cenografia — Fundação
 
-## Getting Started
+Base técnica da experiência digital premium. Hero definitivo e páginas
+completas chegam nas próximas etapas.
 
-First, run the development server:
+
+## Comandos
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estrutura
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `src/app` — `/`, `/projetos`, `/projetos/[slug]`, `/servicos`, `/sobre`, `/contato`
+- `src/components/{layout,ui,animation}` — base minima reutilizavel
+- `src/content` — dados institucionais + 3 placeholders de cases
+- `src/lib` — `utils`, `constants`, base GSAP (`src/lib/gsap.ts`)
+- `src/hooks` — `usePrefersReducedMotion`
+- `src/types` — contratos TypeScript
+- `public/images/placeholders` — capas SVG temporarias
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tokens
 
-## Learn More
+Ver `src/app/globals.css`: void `#050505`, coal `#0B0B0B`, surface
+`#111111`, bone `#F5F5F5`, muted `#9A9A9A`, acid `#C8FF00` (uso contido),
+bordas `rgba(255,255,255,0.10)`. Tipografia Space Grotesk + Inter via
+`next/font`. Layout: `.r6-container`, `.r6-section`, `.r6-grid-12`.
 
-To learn more about Next.js, take a look at the following resources:
+## Pendencias reais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `src/content/company.ts`: e-mail, telefone e endereco reais.
+- `src/content/projects.ts`: substituir 3 placeholders por cases reais.
+- Proximas etapas: Hero, menu, animacoes de scroll, paginas completas.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
