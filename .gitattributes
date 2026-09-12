@@ -1,0 +1,27 @@
+# Enforce consistent line endings on checkout; keep CRLF out of the repo.
+* text=auto eol=lf
+
+# Source files
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.js   text eol=lf
+*.mjs  text eol=lf
+*.css  text eol=lf
+*.md   text eol=lf
+
+# Git / config
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.eslint* text eol=lf
+tsconfig.json text eol=lf
+
+# Binary assets — do not touch
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.svg  binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
