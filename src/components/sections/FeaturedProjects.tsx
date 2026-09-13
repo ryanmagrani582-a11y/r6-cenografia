@@ -104,7 +104,7 @@ export function FeaturedProjects() {
       aria-label="Projetos destacados"
       className="bg-void"
     >
-      <Container className="flex flex-col gap-20 md:gap-28">
+      <Container className="flex flex-col gap-14 md:gap-20">
         <header className="grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-8">
           <div data-featured-item className="flex flex-col gap-3 md:col-span-4 md:row-span-2 md:row-start-1">
             <p className="r6-overline flex items-center gap-3">
@@ -135,8 +135,8 @@ export function FeaturedProjects() {
               data-featured-item
               className={
                 panoramic
-                  ? "flex flex-col gap-10"
-                  : "flex flex-col gap-8 md:flex-row md:items-center md:gap-14"
+                  ? "flex flex-col gap-8"
+                  : "flex flex-col gap-8 md:flex-row md:items-center md:gap-12"
               }
             >
               <div className={panoramic ? "" : flipped ? "md:order-2 md:w-7/12" : "md:w-7/12"}>

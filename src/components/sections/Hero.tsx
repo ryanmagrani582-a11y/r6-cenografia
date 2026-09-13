@@ -67,15 +67,15 @@ export function Hero() {
   }, [reduced]);
 
   return (
-    <section ref={rootRef} aria-label="R6 Cenografia" className="r6-hero relative -mt-20 flex min-h-[100svh] flex-col overflow-clip md:-mt-24">
-      <div className="absolute inset-0" aria-hidden>
-        <div data-hero-media className="h-full w-full will-change-transform">
-          <Image src={HERO_IMAGE} alt="" fill priority fetchPriority="high" sizes="100vw" quality={85} className="r6-hero-img object-cover" />
-        </div>
-        <div data-hero-veil className="r6-hero-veil absolute inset-0" aria-hidden />
-        <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-void/70 to-transparent" aria-hidden />
+        <section ref={rootRef} aria-label="R6 Cenografia" className="r6-hero relative -mt-12 flex min-h-[100svh] flex-col overflow-clip md:-mt-16">
+    <div className="absolute inset-0" aria-hidden>
+      <div data-hero-media className="h-full w-full will-change-transform">
+        <Image src={HERO_IMAGE} alt="" fill priority fetchPriority="high" sizes="100vw" quality={85} className="r6-hero-img object-cover" />
       </div>
-      <Container className="relative flex flex-1 flex-col justify-end pb-10 pt-32 md:pb-14">
+      <div data-hero-veil className="r6-hero-veil absolute inset-0" />
+      <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-void/60 to-transparent" aria-hidden />
+    </div>
+    <Container className="relative flex flex-1 flex-col justify-end pb-8 pt-20 md:pb-10 md:pt-24">
         <p data-hero-kicker className="r6-overline flex items-center gap-3 text-bone/80">
           <span className="inline-block h-1.5 w-1.5 rounded-full bg-acid" aria-hidden />
           R6 Cenografia
