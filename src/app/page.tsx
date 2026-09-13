@@ -1,9 +1,17 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import { Hero } from "@/components/sections/Hero";
 import { Manifesto } from "@/components/sections/Manifesto";
 import { FeaturedProjects } from "@/components/sections/FeaturedProjects";
+import { ProcessSection } from "@/components/process/ProcessSection";
+import { AboutHero } from "@/components/about/AboutHero";
+import { AboutManifesto } from "@/components/about/AboutManifesto";
+import { AboutPrinciples } from "@/components/about/AboutPrinciples";
+import { AboutSpecialty } from "@/components/about/AboutSpecialty";
+import { AboutTerritory } from "@/components/about/AboutTerritory";
+import { AboutGroup } from "@/components/about/AboutGroup";
+import { AboutClosing } from "@/components/about/AboutClosing";
 import { Container } from "@/components/ui/Container";
+import { ArrowUpRight } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -11,6 +19,7 @@ export default function HomePage() {
       <Hero />
       <Manifesto />
       <FeaturedProjects />
+      <ProcessSection />
       <section
         aria-label="Explorar projetos"
         className="border-t border-line bg-coal"
@@ -21,12 +30,14 @@ export default function HomePage() {
               className="inline-block h-1.5 w-1.5 rounded-full bg-acid"
               aria-hidden
             />
-            Próximo paso
+            Próximo passo
           </p>
           <h2 className="r6-story r6-story-lg uppercase">
             <span className="block">Quer ver mais?</span>
           </h2>
-          <p className="r6-body-lg text-muted">Explora todos nossos projetos.</p>
+          <p className="r6-body-lg text-muted">
+            Explora todos nossos projetos.
+          </p>
           <Link
             href="/projetos"
             className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-line bg-transparent px-8 text-sm font-medium tracking-[0.12em] text-bone transition-all duration-300 hover:border-acid hover:text-acid focus-visible:outline-acid active:scale-[0.98]"
@@ -36,6 +47,13 @@ export default function HomePage() {
           </Link>
         </Container>
       </section>
+      <AboutHero />
+      <AboutManifesto />
+      <AboutPrinciples />
+      <AboutSpecialty />
+      <AboutTerritory />
+      <AboutGroup />
+      <AboutClosing />
     </>
   );
 }

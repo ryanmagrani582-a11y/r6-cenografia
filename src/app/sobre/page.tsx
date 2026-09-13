@@ -1,22 +1,28 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Container } from "@/components/ui/Container";
-import { PageHeader } from "@/components/ui/PageHeader";
-import { COMPANY } from "@/content/company";
+import { AboutHero } from "@/components/about/AboutHero";
+import { AboutManifesto } from "@/components/about/AboutManifesto";
+import { AboutPrinciples } from "@/components/about/AboutPrinciples";
+import { AboutSpecialty } from "@/components/about/AboutSpecialty";
+import { AboutTerritory } from "@/components/about/AboutTerritory";
+import { AboutGroup } from "@/components/about/AboutGroup";
+import { AboutClosing } from "@/components/about/AboutClosing";
 
-export const metadata: Metadata = { title: "Sobre" };
+export const metadata: Metadata = {
+  title: "Sobre — R6 CENOGRAFIA",
+  description:
+    "Conheça a R6 CENOGRAFIA, sua forma de pensar cenografia, experiências espaciais e sua conexão com Salvador, Bahia e o Nordeste.",
+};
 
 export default function AboutPage() {
   return (
-    <Container className="r6-section flex flex-col gap-10">
-      <PageHeader
-        overline={`${COMPANY.city} · ${COMPANY.state} · ${COMPANY.region}`}
-        title="Sobre a R6"
-        description={`${COMPANY.name}, parte do ${COMPANY.group}. ${COMPANY.tagline} Página temporária — manifesto e storytelling entram nas próximas etapas.`}
-      />
-      <Link href="/" className="r6-label text-muted hover:text-acid">
-        ← Voltar para a Home
-      </Link>
-    </Container>
+    <>
+      <AboutHero />
+      <AboutManifesto />
+      <AboutPrinciples />
+      <AboutSpecialty />
+      <AboutTerritory />
+      <AboutGroup />
+      <AboutClosing />
+    </>
   );
 }

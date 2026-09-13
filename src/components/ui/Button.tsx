@@ -15,7 +15,7 @@ type ButtonProps = {
 const styles = {
   base: "inline-flex min-h-12 items-center justify-center gap-2 rounded-full font-medium transition-all duration-300 focus-visible:outline-acid active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50",
   primary:
-    "bg-acid text-black hover:bg-bone hover:shadow-[0_0_24px_rgba(249,100,35,0.18)]",
+    "bg-acid text-black hover:bg-bone hover:shadow-[0_0_24px_rgba(200,255,0,0.18)]",
   ghost: "text-bone hover:text-acid",
   outline:
     "border border-line bg-transparent text-bone hover:border-acid hover:text-acid",
