@@ -75,12 +75,11 @@ export function Hero() {
       <div data-hero-veil className="r6-hero-veil absolute inset-0" />
       <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-void/60 to-transparent" aria-hidden />
     </div>
-    <Container className="relative flex flex-1 flex-col justify-end pb-6 pt-16 md:pb-8 md:pt-20">
-        <p data-hero-kicker className="r6-overline flex items-center gap-2 text-bone/80">
-          <span className="inline-block h-1 w-1 rounded-full bg-acid" aria-hidden />
-          R6 Cenografia
-        </p>
-        <h1 data-hero-title className="r6-hero-title mt-4 uppercase">
+    <Container className="relative flex flex-1 flex-col justify-center pb-8 pt-20 md:pb-10 md:pt-24">
+        <div data-hero-kicker className="r6-overline flex items-center gap-3 text-bone/80">
+          <Image src="/images/brand/r6-logo.png" alt="R6 Cenografia" width={80} height={85} className="h-[60px] w-auto md:h-[85px]" priority />
+        </div>
+        <h1 data-hero-title className="r6-hero-title mt-5 uppercase">
           <span data-hero-line className="block overflow-hidden"><span className="block">A experiência</span></span>
           <span data-hero-line className="block overflow-hidden"><span className="block">começa aqui<span className="text-acid">.</span></span></span>
         </h1>
