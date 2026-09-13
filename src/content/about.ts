@@ -37,7 +37,7 @@ export const ABOUT = {
     headline: "UMA R6. UMA ESTRUTURA MAIOR.",
     text: "A R6 integra o R GROUP, conectando sua especialidade em cenografia a uma estrutura maior.",
     cta: "Conhecer o R GROUP",
-    href: "/rgroup",
+    href: "https://www.rgroupcenografia.com/",
   },
   closing: {
     headline: "SE O ESPAÇO IMPORTA, A EXPERIÊNCIA TAMBÉM.",

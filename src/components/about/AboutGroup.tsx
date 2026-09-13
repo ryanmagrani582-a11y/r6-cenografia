@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { SectionLabel } from "@/components/ui/SectionLabel";
@@ -23,13 +22,15 @@ export function AboutGroup() {
             {ABOUT.group.text}
           </p>
         </header>
-        <Link
+        <a
           href={ABOUT.group.href}
+          target="_blank"
+          rel="noopener noreferrer"
           className="r6-link-underline inline-flex min-h-12 items-center gap-2 text-sm font-medium tracking-[0.12em] uppercase text-bone"
         >
           {ABOUT.group.cta}
           <ArrowUpRight size={16} aria-hidden />
-        </Link>
+        </a>
       </Container>
     </section>
   );
