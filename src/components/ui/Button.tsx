@@ -15,12 +15,12 @@ type ButtonProps = {
 const styles = {
   base: "inline-flex min-h-12 items-center justify-center gap-2 rounded-full font-medium transition-all duration-300 focus-visible:outline-acid active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50",
   primary:
-    "bg-acid text-black hover:bg-bone hover:shadow-[0_0_24px_rgba(200,255,0,0.18)]",
-  ghost: "text-bone hover:text-acid",
+    "bg-acid text-black hover:bg-acid/90",
+  ghost: "text-bone hover:text-acid border border-transparent hover:border-acid",
   outline:
-    "border border-line bg-transparent text-bone hover:border-acid hover:text-acid",
+    "border border-acid text-acid hover:bg-acid hover:text-black",
   header:
-    "border border-line bg-transparent px-5 py-2.5 text-xs uppercase tracking-[0.12em] text-bone hover:border-acid hover:bg-acid hover:text-black",
+    "border border-acid text-acid hover:text-acid/80",
   md: "px-6 py-3 text-sm",
   sm: "px-4 py-2 text-xs uppercase tracking-[0.12em]",
 };

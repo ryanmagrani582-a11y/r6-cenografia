@@ -25,9 +25,10 @@ npm run lint
 ## Tokens
 
 Ver `src/app/globals.css`: void `#050505`, coal `#0B0B0B`, surface
-`#111111`, bone `#F5F5F5`, muted `#9A9A9A`, acid `#C8FF00` (uso contido),
-bordas `rgba(255,255,255,0.10)`. Tipografia Space Grotesk + Inter via
-`next/font`. Layout: `.r6-container`, `.r6-section`, `.r6-grid-12`.
+`#111111`, bone `#F5F5F5`, muted `#9A9A9A`, acid `#F96423`
+(cor institucional laranja), bordas `rgba(255,255,255,0.10)`.
+Tipografia Space Grotesk + Inter via `next/font`. Layout:
+`.r6-container`, `.r6-section`, `.r6-grid-12`.
 
 ## Pendencias reais
 

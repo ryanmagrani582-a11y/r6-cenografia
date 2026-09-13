@@ -43,7 +43,6 @@ export function ContactForm() {
     if (Object.keys(validationErrors).length > 0) { setErrors(validationErrors); return; }
     setIsSubmitting(true);
     await new Promise(resolve => setTimeout(resolve, 2000));
-    console.log("Form submitted:", { ...formData, subject: "Novo projeto — R6 Cenografia" });
     setIsSubmitted(true);
     setFormData({ name: "", company: "", email: "", phone: "", projectType: "", description: "", deadline: "" });
     setIsSubmitting(false);
