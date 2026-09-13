@@ -89,7 +89,7 @@ export function Hero() {
               <MapPin size={12} className="text-acid" aria-hidden />
               Salvador · Bahia · Nordeste
             </p>
-            <p className="r6-small max-w-md text-bone/70 md:max-w-xl text-lg md:text-xl">
+            <p className="r6-small max-w-md text-bone/70 md:max-w-xl text-xl md:text-2xl">
               Criamos stands, cenografias e experiências espaciais para marcas que precisam ser percebidas.
             </p>
           </div>
