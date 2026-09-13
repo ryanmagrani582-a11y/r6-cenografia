@@ -77,7 +77,7 @@ export function Hero() {
     </div>
     <Container className="relative flex flex-1 flex-col justify-center pb-8 pt-20 md:pb-10 md:pt-24">
         <div data-hero-kicker className="r6-overline flex items-center gap-3 text-bone/80">
-          <Image src="/images/brand/r6-logo.png" alt="R6 Cenografia" width={160} height={172} className="h-[120px] w-auto md:h-[172px]" priority />
+          <Image src="/images/brand/r6-logo.png" alt="R6 Cenografia" width={220} height={236} className="h-[150px] w-auto md:h-[236px]" priority />
         </div>
         <h1 data-hero-title className="r6-hero-title mt-5 uppercase">
           <span data-hero-line className="block overflow-hidden"><span className="block">A experiência</span></span>
