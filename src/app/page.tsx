@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Hero } from "@/components/sections/Hero";
 import { Manifesto } from "@/components/sections/Manifesto";
+import { Showcase } from "@/components/sections/Showcase";
 import { FeaturedProjects } from "@/components/sections/FeaturedProjects";
 import { ProcessSection } from "@/components/process/ProcessSection";
 import { AboutHero } from "@/components/about/AboutHero";
@@ -18,6 +19,7 @@ export default function HomePage() {
     <>
       <Hero />
       <Manifesto />
+      <Showcase />
       <FeaturedProjects />
       <ProcessSection />
       <section
