@@ -61,7 +61,7 @@ export function Showcase() {
             className="relative aspect-[4/3] overflow-hidden rounded-sm bg-coal"
           >
             <Image
-              src="/images/projects/acheok.jpg"
+              src="/images/projects/acheok.png"
               alt="Stand premium R6 Cenografia — ILUMYA Sun Pharma"
               fill
               quality={90}
