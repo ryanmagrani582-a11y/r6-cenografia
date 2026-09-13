@@ -77,7 +77,7 @@ export function Hero() {
     </div>
     <Container className="relative flex flex-1 flex-col justify-center pb-8 pt-20 md:pb-10 md:pt-24">
         <div data-hero-kicker className="r6-overline flex items-center gap-3 text-bone/80">
-          <Image src="/images/brand/r6-logo.png" alt="R6 Cenografia" width={80} height={85} className="h-[60px] w-auto md:h-[85px]" priority />
+          <Image src="/images/brand/r6-logo.png" alt="R6 Cenografia" width={110} height={118} className="h-[80px] w-auto md:h-[118px]" priority />
         </div>
         <h1 data-hero-title className="r6-hero-title mt-5 uppercase">
           <span data-hero-line className="block overflow-hidden"><span className="block">A experiência</span></span>
@@ -89,18 +89,18 @@ export function Hero() {
               <MapPin size={12} className="text-acid" aria-hidden />
               Salvador · Bahia · Nordeste
             </p>
-            <p className="r6-small max-w-sm text-bone/70">
+            <p className="r6-small max-w-md text-bone/70 md:max-w-lg md:text-base">
               Criamos stands, cenografias e experiências espaciais para marcas que precisam ser percebidas.
             </p>
           </div>
-          <div data-hero-cta className="flex flex-wrap items-center gap-2">
-            <Link href="/contato" className="inline-flex min-h-9 items-center justify-center gap-2 rounded-full bg-acid px-5 text-xs font-medium text-black transition-all duration-300 hover:bg-bone active:scale-[0.98]">
+          <div data-hero-cta className="flex flex-wrap items-center gap-3">
+            <Link href="/contato" className="inline-flex min-h-10 items-center justify-center gap-2 rounded-full bg-acid px-6 text-sm font-medium text-black transition-all duration-300 hover:bg-bone active:scale-[0.98] md:min-h-12 md:px-8 md:text-base">
               Iniciar projeto
-              <ArrowUpRight size={14} aria-hidden />
+              <ArrowUpRight size={16} aria-hidden />
             </Link>
-            <Link href="/projetos" className="inline-flex min-h-9 items-center justify-center gap-2 rounded-full border border-bone/25 px-5 text-xs font-medium text-bone transition-all duration-300 hover:border-acid hover:text-acid active:scale-[0.98]">
+            <Link href="/projetos" className="inline-flex min-h-10 items-center justify-center gap-2 rounded-full border border-bone/25 px-6 text-sm font-medium text-bone transition-all duration-300 hover:border-acid hover:text-acid active:scale-[0.98] md:min-h-12 md:px-8 md:text-base">
               Ver projetos
-              <ArrowDown size={14} aria-hidden />
+              <ArrowDown size={16} aria-hidden />
             </Link>
           </div>
         </div>
