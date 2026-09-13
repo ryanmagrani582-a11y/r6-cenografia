@@ -89,18 +89,18 @@ export function Hero() {
               <MapPin size={12} className="text-acid" aria-hidden />
               Salvador · Bahia · Nordeste
             </p>
-            <p className="r6-small max-w-md text-bone/70 md:max-w-xl md:text-lg">
+            <p className="r6-small max-w-md text-bone/70 md:max-w-xl text-lg md:text-xl">
               Criamos stands, cenografias e experiências espaciais para marcas que precisam ser percebidas.
             </p>
           </div>
           <div data-hero-cta className="flex flex-wrap items-center gap-3 md:gap-4">
-            <Link href="/contato" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-acid px-8 text-base font-medium text-black transition-all duration-300 hover:bg-bone active:scale-[0.98] md:min-h-14 md:px-10 md:text-lg">
+            <Link href="/contato" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-acid px-8 text-sm font-medium text-black transition-all duration-300 hover:bg-bone active:scale-[0.98] md:min-h-14 md:px-10">
               Iniciar projeto
-              <ArrowUpRight size={18} aria-hidden />
+              <ArrowUpRight size={16} aria-hidden />
             </Link>
-            <Link href="/projetos" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-bone/25 px-8 text-base font-medium text-bone transition-all duration-300 hover:border-acid hover:text-acid active:scale-[0.98] md:min-h-14 md:px-10 md:text-lg">
+            <Link href="/projetos" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-bone/25 px-8 text-sm font-medium text-bone transition-all duration-300 hover:border-acid hover:text-acid active:scale-[0.98] md:min-h-14 md:px-10">
               Ver projetos
-              <ArrowDown size={18} aria-hidden />
+              <ArrowDown size={16} aria-hidden />
             </Link>
           </div>
         </div>
