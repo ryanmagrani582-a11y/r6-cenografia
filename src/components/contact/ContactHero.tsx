@@ -4,9 +4,9 @@ import { CONTACT } from "@/content/contact";
 export function ContactHero() {
   return (
     <section aria-labelledby="contact-hero-heading" className="r6-section bg-void">
-      <Container className="flex flex-col gap-12 md:gap-16 max-w-5xl mx-auto">
-        <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
-          <div className="flex flex-col gap-6">
+      <Container className="flex flex-col gap-6 md:gap-8 max-w-4xl mx-auto">
+        <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+          <div className="flex flex-col gap-3">
             <p className="r6-overline flex items-center gap-3">
               <span
                 className="inline-block h-1.5 w-1.5 rounded-full bg-acid"
@@ -16,7 +16,7 @@ export function ContactHero() {
             </p>
             <h1
               id="contact-hero-heading"
-              className="r6-story r6-story-xl uppercase"
+              className="r6-story r6-story-lg uppercase"
             >
               <span className="block">{CONTACT.hero.headline.split(" ")[0]}</span>
               <span className="block">{CONTACT.hero.headline.split(" ")[1]}</span>
@@ -30,7 +30,7 @@ export function ContactHero() {
               {CONTACT.hero.text}
             </p>
           </div>
-          <div className="flex flex-col gap-4 md:items-end">
+          <div className="flex flex-col gap-3 md:items-end">
             <p className="r6-label text-muted">Assinatura territorial</p>
             <p className="r6-h3 uppercase text-bone">{CONTACT.hero.signature}</p>
           </div>

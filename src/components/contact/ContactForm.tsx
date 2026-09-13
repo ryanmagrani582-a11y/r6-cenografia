@@ -55,16 +55,16 @@ export function ContactForm() {
 
   if (isSubmitted) {
     return (
-      <Container className="r6-section flex flex-col items-center justify-center min-h-[80svh] text-center">
-        <div className="max-w-2xl mx-auto flex flex-col items-center gap-8">
-          <div className="flex h-20 w-20 items-center justify-center rounded-full bg-acid/10">
-            <CheckCircle className="h-10 w-10 text-acid" />
+      <Container className="r6-section flex flex-col items-center justify-center min-h-[60svh] text-center">
+        <div className="max-w-xl mx-auto flex flex-col items-center gap-5">
+          <div className="flex h-14 w-14 items-center justify-center rounded-full bg-acid/10">
+            <CheckCircle className="h-7 w-7 text-acid" />
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3">
             <h2 className="r6-story r6-story-lg uppercase">Projeto recebido.</h2>
             <p className="r6-body-lg text-muted max-w-lg mx-auto">Obrigado por compartilhar sua ideia. Seu briefing foi validado e está pronto para integração com o canal de atendimento.</p>
           </div>
-          <Button href="/" variant="primary" className="mt-4">Voltar à Home</Button>
+          <Button href="/" variant="primary" className="mt-2">Voltar à Home</Button>
         </div>
       </Container>
     );
@@ -73,7 +73,7 @@ export function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-8 rounded-2xl border border-line bg-surface p-8 md:p-10"
+      className="flex flex-col gap-5 rounded-2xl border border-line bg-surface p-5 md:p-6"
       noValidate
     >
       <ContactField label="01 / Nome" id="name" value={formData.name} onChange={(v) => handleInputChange("name", v.target.value)} error={errors.name} placeholder="Seu nome completo" required />

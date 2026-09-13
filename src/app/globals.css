@@ -17,7 +17,7 @@
   /* Layout */
   --r6-max: 1440px;
   --r6-gutter: clamp(1rem, 3vw, 2.5rem);
-  --r6-section-y: clamp(2.5rem, 5vw, 4rem);
+  --r6-section-y: clamp(1.8rem, 4vw, 3rem);
 
   /* Type scale — fluid (compact & refined) */
   --r6-display: clamp(1.75rem, 5vw, 4rem);
@@ -175,7 +175,7 @@ body {
 
 @media (min-width: 768px) {
   .r6-hero-title {
-    font-size: clamp(4rem, 8.5vw, 9rem);
+    font-size: clamp(2rem, 5vw, 3.8rem);
   }
 }
 
@@ -232,12 +232,12 @@ body {
   letter-spacing: -0.035em;
   line-height: 0.94;
   text-wrap: balance;
-  font-size: clamp(2rem, 8vw, 3.5rem);
+  font-size: clamp(1.4rem, 5vw, 2.5rem);
 }
 
 @media (min-width: 768px) {
   .r6-project-hero-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.8rem, 4vw, 3rem);
   }
 }
 
