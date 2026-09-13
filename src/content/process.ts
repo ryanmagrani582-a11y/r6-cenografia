@@ -1,9 +1,9 @@
 import { COMPANY } from "@/content/company";
 
 export const processSteps = [
-  { index: "01", title: "Conceito", description: "Entendemos o objetivo e transformamos intenção em direção criativa." },
-  { index: "02", title: "Design", description: "Arquitetura, identidade e experiência ganham forma." },
-  { index: "03", title: "Produção", description: "O projeto sai da tela e começa a se tornar matéria." },
-  { index: "04", title: "Montagem", description: "Cada elemento encontra seu lugar no espaço." },
-  { index: "05", title: "Entrega", description: "O conceito se transforma em uma experiência real." },
+  { index: "01", title: "Conceito", description: "Antes de desenhar, entendemos o que precisa ser percebido." },
+  { index: "02", title: "Design", description: "Transformamos intenção em arquitetura, forma e experiência." },
+  { index: "03", title: "Produção", description: "O projeto deixa a tela e começa a ganhar matéria." },
+  { index: "04", title: "Montagem", description: "Cada elemento encontra seu lugar. O espaço começa a acontecer." },
+  { index: "05", title: "Entrega", description: "A ideia deixa de ser projeto e passa a ser experiência." },
 ] as const;

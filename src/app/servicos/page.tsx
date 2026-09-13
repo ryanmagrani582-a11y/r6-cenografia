@@ -10,9 +10,9 @@ export default function ServicesPage() {
   return (
     <Container className="r6-section flex flex-col gap-12">
       <PageHeader
-        overline="Capacidades — em construção"
-        title="Serviços"
-        description="Página temporária. Arquitetura de serviços definitiva chega nas próximas etapas."
+        overline="Capacidades"
+        title="Especialidades"
+        description="Cinco especialidades. Um objetivo: fazer uma marca ser percebida."
       />
       <ul className="grid gap-px overflow-hidden rounded-xl border border-line bg-line md:grid-cols-2">
         {services.map((service) => (

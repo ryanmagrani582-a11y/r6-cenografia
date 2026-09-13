@@ -11,9 +11,9 @@ export default function ProjectsPage() {
   return (
     <Container className="r6-section flex flex-col gap-12">
       <PageHeader
-        overline="Índice — em construção"
+        overline="Índice"
         title="Projetos"
-        description="Página temporária. Os cases reais e o layout definitivo chegam nas próximas etapas."
+        description="Cada projeto parte de uma pergunta simples: o que precisa acontecer quando alguém entrar nesse espaço?"
       />
       <ul className="divide-y divide-line border-y border-line">
         {projects.map((project) => (

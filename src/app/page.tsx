@@ -21,7 +21,7 @@ export default function HomePage() {
       <FeaturedProjects />
       <ProcessSection />
       <section
-        aria-label="Explorar projetos"
+        aria-label="Iniciar projeto"
         className="border-t border-line bg-coal"
       >
         <Container className="flex flex-col items-start gap-8 py-24 md:py-32">
@@ -33,16 +33,17 @@ export default function HomePage() {
             Próximo passo
           </p>
           <h2 className="r6-story r6-story-lg uppercase">
-            <span className="block">Quer ver mais?</span>
+            <span className="block">Tem um projeto</span>
+            <span className="block">para tirar do papel?</span>
           </h2>
           <p className="r6-body-lg text-muted">
-            Explora todos nossos projetos.
+            Conte o que você precisa. A R6 transforma intenção em espaço, experiência e presença.
           </p>
           <Link
-            href="/projetos"
+            href="/contato"
             className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-line bg-transparent px-8 text-sm font-medium tracking-[0.12em] text-bone transition-all duration-300 hover:border-acid hover:text-acid focus-visible:outline-acid active:scale-[0.98]"
           >
-            Ver todos os projetos
+            Iniciar projeto
             <ArrowUpRight size={16} aria-hidden />
           </Link>
         </Container>

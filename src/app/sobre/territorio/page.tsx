@@ -17,7 +17,7 @@ export default function TerritoryPage() {
       <PageHeader
         overline="04 / Território"
         title="O Nordeste é nosso território."
-        description="Com Salvador como ponto de partida, a R6 constrói sua atuação a partir de um território que conhece, entende e transforma em experiência."
+        description="Salvador é nosso ponto de partida. O Nordeste, nosso território. Uma proximidade que nos permite entender a dinâmica regional e pensar cada experiência a partir do espaço onde ela acontece."
       />
       <p className="r6-body text-muted">
         Sede em {HEADQUARTERS.city} — {HEADQUARTERS.state}, {HEADQUARTERS.region},{" "}

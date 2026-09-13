@@ -49,8 +49,7 @@ export default async function ProjectDetailPage({
         ))}
       </dl>
       <p className="r6-small text-muted">
-        Página temporária — galeria, vídeo e storytelling do case entram nas
-        próximas etapas.
+        Galeria, vídeo e storytelling do case entram nas próximas etapas.
       </p>
       <Link href="/projetos" className="r6-label text-muted hover:text-acid">
         ← Todos os projetos

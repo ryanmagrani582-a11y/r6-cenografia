@@ -75,11 +75,11 @@ export function FeaturedProjects() {
               <span className="inline-block h-px w-8 bg-acid" aria-hidden />
               03 / PROJETOS
             </p>
-            <p className="r6-body mt-4 max-w-md text-muted">Marcas que confiaram na R6 para transformar ideias em presença e espaços em experiências memoráveis.</p>
+            <p className="r6-body mt-4 max-w-md text-muted">Cada projeto parte de uma pergunta simples: o que precisa acontecer quando alguém entrar nesse espaço?</p>
           </div>
           <h2 data-featured-item className="r6-story r6-story-lg uppercase md:col-span-7 md:col-start-6">
-            <span className="block">Grandes marcas,</span>
-            <span className="block">grandes <span className="text-acid">experiências</span>.</span>
+            <span className="block">Espaços que</span>
+            <span className="block">falam antes <span className="text-acid">da marca</span>.</span>
           </h2>
         </header>
 

@@ -2,27 +2,33 @@ import type { Service } from "@/types";
 
 export const services: Service[] = [
   {
-    slug: "cenografia",
-    title: "Cenografia",
+    slug: "stands",
+    title: "Stands",
     description:
-      "Projetos cenográficos de alto padrão para eventos, feiras e experiências de marca.",
+      "Espaços pensados para fazer uma marca ser percebida, explorada e lembrada.",
   },
   {
-    slug: "arquitetura-efemera",
-    title: "Arquitetura Efêmera",
+    slug: "cenografia-congressos",
+    title: "Cenografia de Congressos",
     description:
-      "Estandes, pavilhões e instalações temporárias com rigor construtivo.",
+      "Arquitetura, fluxo e identidade trabalhando juntos para transformar grandes encontros em experiências coerentes.",
   },
   {
-    slug: "brand-experience",
-    title: "Brand Experience",
+    slug: "experiencias-interativas",
+    title: "Experiências Interativas",
     description:
-      "Jornadas físicas e digitais que transformam espaço em narrativa de marca.",
+      "Interação que aproxima pessoas da marca e transforma atenção em experiência.",
   },
   {
-    slug: "producao-executiva",
-    title: "Produção Executiva",
+    slug: "ambiente-corporativo",
+    title: "Ambiente Corporativo",
     description:
-      "Engenharia, logística e operação com base estratégica no Nordeste.",
+      "Espaços corporativos que traduzem identidade em arquitetura, atmosfera e percepção.",
+  },
+  {
+    slug: "producao-montagem",
+    title: "Produção e Montagem",
+    description:
+      "Da ideia à matéria. Produção, montagem e entrega alinhadas ao projeto.",
   },
 ];

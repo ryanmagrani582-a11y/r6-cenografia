@@ -91,7 +91,7 @@ export function Hero() {
               Salvador · Bahia · Nordeste
             </p>
             <p className="r6-small max-w-md text-bone/70">
-              Cenografia, arquitetura e experiências de marca para eventos que precisam ser lembrados.
+              Criamos stands, cenografias e experiências espaciais para marcas que precisam ser percebidas.
             </p>
           </div>
           <div data-hero-cta className="flex flex-wrap items-center gap-3">

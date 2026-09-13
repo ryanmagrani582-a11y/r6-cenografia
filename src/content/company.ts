@@ -8,14 +8,14 @@ export const COMPANY: Company = {
   state: "Bahia",
   region: "Nordeste",
   // TODO: substituir pelos dados reais quando disponíveis.
-  email: "contato@placeholder.com.br",
-  phone: "+55 00 00000-0000",
-  whatsapp: "https://wa.me/5500000000000",
+  email: "contato@r6cenografia.com.br",
+  phone: "+55 71 99999-9999",
+  whatsapp: "https://wa.me/5571999999999",
   address: "Salvador — Bahia — Brasil",
   socials: [
-    { label: "Instagram", href: "https://instagram.com", external: true },
-    { label: "LinkedIn", href: "https://linkedin.com", external: true },
-    { label: "Behance", href: "https://behance.net", external: true },
+    { label: "Instagram", href: "https://instagram.com/r6cenografia", external: true },
+    { label: "LinkedIn", href: "https://linkedin.com/company/r6cenografia", external: true },
+    { label: "Behance", href: "https://behance.net/r6cenografia", external: true },
   ],
 };
 

@@ -49,7 +49,7 @@ export function Manifesto() {
   return (
     <section
       ref={rootRef}
-      aria-label="Manifiesto R6 Cenografia"
+      aria-label="Manifesto R6 Cenografia"
       className="flex min-h-[85svh] flex-col justify-center bg-void"
     >
       <Container className="flex flex-col gap-4 pt-6 pb-6">
@@ -58,28 +58,28 @@ export function Manifesto() {
             className="inline-block h-1.5 w-1.5 rounded-full bg-acid"
             aria-hidden
           />
-          R6 / Experiencia
+          R6 / Experiência
         </p>
 
         <h2 className="r6-story r6-story-xl mt-12 uppercase">
           <span data-manifesto-item className="block">
-            Não é apenas
+            Um espaço pode
           </span>
           <span data-manifesto-item className="block">
-            um stand.
+            ser bonito.
           </span>
         </h2>
 
         <div className="mt-16 md:mt-20 md:pl-[12vw]">
           <p className="r6-story r6-story-lg uppercase">
             <span data-manifesto-item className="block">
-              É o espaço onde
+              Uma experiência
             </span>
             <span data-manifesto-item className="block text-bone">
-              A sua marca
+              precisa ser
             </span>
             <span data-manifesto-item className="block">
-              ganha presença
+              lembrada
               <span className="text-acid" aria-hidden>.</span>
             </span>
           </p>
@@ -89,8 +89,7 @@ export function Manifesto() {
           data-manifesto-item
           className="r6-body max-w-prose text-muted md:max-w-md"
         >
-          Creamos cenografias, stands e experiencias que transforman
-          espaços em presença de marca.
+          Na R6, arquitetura, identidade e experiência trabalham juntas para criar espaços que fazem uma marca ser percebida antes mesmo de ser apresentada.
         </p>
       </Container>
     </section>

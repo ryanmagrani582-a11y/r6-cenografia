@@ -5,8 +5,8 @@ export const CONTACT = {
   hero: {
     index: "06",
     label: "Contato",
-    headline: "Vamos criar a próxima experiência.",
-    text: "Conte um pouco sobre o projeto. A partir daí, começamos a construir a direção.",
+    headline: "VAMOS CRIAR A PRÓXIMA EXPERIÊNCIA.",
+    text: "Conte o que você precisa. A partir daí, começamos a construir.",
     signature: "SALVADOR · BAHIA · NORDESTE",
   },
   channels: {
