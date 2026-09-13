@@ -50,18 +50,18 @@ export function Manifesto() {
     <section
       ref={rootRef}
       aria-label="Manifesto R6 Cenografia"
-      className="flex min-h-[85svh] flex-col justify-center bg-void"
+      className="flex flex-col justify-center bg-void py-12 md:py-16"
     >
-      <Container className="flex flex-col gap-4 pt-6 pb-6">
-        <p data-manifesto-item className="r6-overline flex items-center gap-3">
+      <Container className="flex flex-col gap-3 md:gap-4">
+        <p data-manifesto-item className="r6-overline flex items-center gap-2">
           <span
-            className="inline-block h-1.5 w-1.5 rounded-full bg-acid"
+            className="inline-block h-1 w-1 rounded-full bg-acid"
             aria-hidden
           />
           R6 / Experiência
         </p>
 
-        <h2 className="r6-story r6-story-xl mt-12 uppercase">
+        <h2 className="r6-story r6-story-xl mt-4 uppercase">
           <span data-manifesto-item className="block">
             Um espaço pode
           </span>
@@ -70,7 +70,7 @@ export function Manifesto() {
           </span>
         </h2>
 
-        <div className="mt-16 md:mt-20 md:pl-[12vw]">
+        <div className="mt-8 md:mt-10 md:pl-[8vw]">
           <p className="r6-story r6-story-lg uppercase">
             <span data-manifesto-item className="block">
               Uma experiência
@@ -87,7 +87,7 @@ export function Manifesto() {
 
         <p
           data-manifesto-item
-          className="r6-body max-w-prose text-muted md:max-w-md"
+          className="r6-body max-w-prose text-muted md:max-w-sm"
         >
           Na R6, arquitetura, identidade e experiência trabalham juntas para criar espaços que fazem uma marca ser percebida antes mesmo de ser apresentada.
         </p>

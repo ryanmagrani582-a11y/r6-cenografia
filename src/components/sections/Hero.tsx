@@ -73,40 +73,40 @@ export function Hero() {
         <Image src={HERO_IMAGE} alt="" fill priority fetchPriority="high" sizes="100vw" quality={85} className="r6-hero-img object-cover" />
       </div>
       <div data-hero-veil className="r6-hero-veil absolute inset-0" />
-      <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-void/60 to-transparent" aria-hidden />
+      <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-void/60 to-transparent" aria-hidden />
     </div>
-    <Container className="relative flex flex-1 flex-col justify-end pb-8 pt-20 md:pb-10 md:pt-24">
-        <p data-hero-kicker className="r6-overline flex items-center gap-3 text-bone/80">
-          <span className="inline-block h-1.5 w-1.5 rounded-full bg-acid" aria-hidden />
+    <Container className="relative flex flex-1 flex-col justify-end pb-6 pt-16 md:pb-8 md:pt-20">
+        <p data-hero-kicker className="r6-overline flex items-center gap-2 text-bone/80">
+          <span className="inline-block h-1 w-1 rounded-full bg-acid" aria-hidden />
           R6 Cenografia
         </p>
-        <h1 data-hero-title className="r6-hero-title mt-6 uppercase">
+        <h1 data-hero-title className="r6-hero-title mt-4 uppercase">
           <span data-hero-line className="block overflow-hidden"><span className="block">A experiência</span></span>
           <span data-hero-line className="block overflow-hidden"><span className="block">começa aqui<span className="text-acid">.</span></span></span>
         </h1>
-        <div className="mt-8 flex flex-col gap-8 border-t border-bone/15 pt-6 md:flex-row md:items-end md:justify-between">
-          <div data-hero-meta className="flex flex-col gap-3">
+        <div className="mt-5 flex flex-col gap-4 border-t border-bone/15 pt-4 md:flex-row md:items-end md:justify-between">
+          <div data-hero-meta className="flex flex-col gap-2">
             <p className="r6-label flex items-center gap-2 text-bone">
-              <MapPin size={14} className="text-acid" aria-hidden />
+              <MapPin size={12} className="text-acid" aria-hidden />
               Salvador · Bahia · Nordeste
             </p>
-            <p className="r6-small max-w-md text-bone/70">
+            <p className="r6-small max-w-sm text-bone/70">
               Criamos stands, cenografias e experiências espaciais para marcas que precisam ser percebidas.
             </p>
           </div>
-          <div data-hero-cta className="flex flex-wrap items-center gap-3">
-            <Link href="/contato" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-acid px-7 text-sm font-medium text-black transition-all duration-300 hover:bg-bone active:scale-[0.98]">
+          <div data-hero-cta className="flex flex-wrap items-center gap-2">
+            <Link href="/contato" className="inline-flex min-h-9 items-center justify-center gap-2 rounded-full bg-acid px-5 text-xs font-medium text-black transition-all duration-300 hover:bg-bone active:scale-[0.98]">
               Iniciar projeto
-              <ArrowUpRight size={16} aria-hidden />
+              <ArrowUpRight size={14} aria-hidden />
             </Link>
-            <Link href="/projetos" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-bone/25 px-7 text-sm font-medium text-bone transition-all duration-300 hover:border-acid hover:text-acid active:scale-[0.98]">
+            <Link href="/projetos" className="inline-flex min-h-9 items-center justify-center gap-2 rounded-full border border-bone/25 px-5 text-xs font-medium text-bone transition-all duration-300 hover:border-acid hover:text-acid active:scale-[0.98]">
               Ver projetos
-              <ArrowDown size={16} aria-hidden />
+              <ArrowDown size={14} aria-hidden />
             </Link>
           </div>
         </div>
       </Container>
-      <div data-hero-scroll className="pointer-events-none absolute bottom-10 right-6 hidden lg:block xl:right-12">
+      <div data-hero-scroll className="pointer-events-none absolute bottom-6 right-6 hidden lg:block xl:right-12">
         <ScrollIndicator />
       </div>
     </section>

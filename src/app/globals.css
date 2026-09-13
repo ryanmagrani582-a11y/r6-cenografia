@@ -16,19 +16,19 @@
 
   /* Layout */
   --r6-max: 1440px;
-  --r6-gutter: clamp(1.25rem, 4vw, 4rem);
-  --r6-section-y: clamp(3rem, 7vw, 5.5rem);
+  --r6-gutter: clamp(1rem, 3vw, 2.5rem);
+  --r6-section-y: clamp(2.5rem, 5vw, 4rem);
 
-  /* Type scale — fluid (reduced for refined density) */
-  --r6-display: clamp(2.25rem, 6.5vw, 5.5rem);
-  --r6-h1: clamp(2rem, 4.5vw, 3.8rem);
-  --r6-h2: clamp(1.625rem, 3vw, 2.5rem);
-  --r6-h3: clamp(1.125rem, 1.8vw, 1.5rem);
-  --r6-body-lg: clamp(1rem, 1.25vw, 1.1875rem);
-  --r6-body: 0.95rem;
-  --r6-small: 0.8rem;
-  --r6-label: 0.7rem;
-  --r6-overline: 0.625rem;
+  /* Type scale — fluid (compact & refined) */
+  --r6-display: clamp(1.75rem, 5vw, 4rem);
+  --r6-h1: clamp(1.5rem, 3.5vw, 2.8rem);
+  --r6-h2: clamp(1.25rem, 2.2vw, 1.85rem);
+  --r6-h3: clamp(1rem, 1.4vw, 1.25rem);
+  --r6-body-lg: clamp(0.9rem, 1vw, 1rem);
+  --r6-body: 0.85rem;
+  --r6-small: 0.75rem;
+  --r6-label: 0.65rem;
+  --r6-overline: 0.58rem;
 }
 
 @theme inline {
@@ -206,19 +206,19 @@ body {
 }
 
 .r6-story-xl {
-  font-size: clamp(2rem, 5.5vw, 5.5rem);
+  font-size: clamp(1.5rem, 4vw, 3.5rem);
 }
 
 .r6-story-lg {
-  font-size: clamp(1.8rem, 4.5vw, 4.8rem);
+  font-size: clamp(1.35rem, 3.2vw, 2.8rem);
 }
 
 .r6-story-md {
-  font-size: clamp(1.5rem, 3.8vw, 3.8rem);
+  font-size: clamp(1.1rem, 2.5vw, 2rem);
 }
 
 .r6-project-title {
-  font-size: clamp(1.5rem, 3vw, 3rem);
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
 }
 
 .r6-project-index {
@@ -232,12 +232,12 @@ body {
   letter-spacing: -0.035em;
   line-height: 0.94;
   text-wrap: balance;
-  font-size: clamp(2.4rem, 10.5vw, 4.5rem);
+  font-size: clamp(2rem, 8vw, 3.5rem);
 }
 
 @media (min-width: 768px) {
   .r6-project-hero-title {
-    font-size: clamp(3rem, 6.8vw, 6.5rem);
+    font-size: clamp(2.5rem, 5vw, 4rem);
   }
 }
 
