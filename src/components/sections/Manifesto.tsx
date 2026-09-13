@@ -61,11 +61,12 @@ export function Manifesto() {
             className="relative aspect-[4/3] overflow-hidden rounded-sm bg-coal"
           >
             <Image
-              src="/images/projects/novatrigook.jpg"
-              alt="Stand premium R6 Cenografia — experiência espacial"
+              src="/images/projects/novatrigook.png"
+              alt="Stand R6 Cenografia"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               quality={90}
-              className="object-cover transition-transform duration-700 hover:scale-[1.03]"
+              className="object-cover"
             />
           </div>
 

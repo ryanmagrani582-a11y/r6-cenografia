@@ -61,11 +61,12 @@ export function Showcase() {
             className="relative aspect-[4/3] overflow-hidden rounded-sm bg-coal"
           >
             <Image
-              src="/images/projects/acheok.png"
-              alt="Stand premium R6 Cenografia — ILUMYA Sun Pharma"
+              src="/images/projects/acheila.png"
+              alt="Stand R6 Cenografia"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               quality={90}
-              className="object-cover transition-transform duration-700 hover:scale-[1.03]"
+              className="object-cover"
             />
           </div>
 
